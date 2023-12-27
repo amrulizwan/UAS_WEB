@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Bebas;
+  src: url(../fonts/BebasNeue-Regular.ttf);
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins';
+}
+#menuBar {
+  margin-top: 50px;
+  width: 70%;
+  height: 40px;
+  font-size: 16px;
+  color: #252525;
+  font-family: 'Poppins';
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#menuBar a {
+  color: #252525;
+  text-decoration: none;
+}
+
+#row2 {
+  margin-top: 60px;
+}
+
+#header {
+  background-image: url('../img/smk.jpeg');
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+}
+
+#header h1 {
+  color: white;
+  font-family: 'Poppins';
+}
+
+.title button {
+  width: 120px;
+  margin: 20px 10px 10px 10px;
+}
+
+#bawaHeader {
+  margin-top: -200px;
+}
+#bawaHeader2 {
+  margin-top: -230px;
+}
+
+#jargon {
+  margin-top: 220px;
+}
+
+h2 {
+  color: white;
+}
+
+#gallery img:hover {
+  transform: scale(2);
+  transition: 0.5s;
+}

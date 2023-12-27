@@ -1,0 +1,22 @@
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  border-radius: 50px;
+  padding: 50px;
+  background: #1b72ff;
+  border: 10px solid #5a9cff;
+}
+
+h1,
+p {
+  color: white;
+  text-align: center;
+}
+
+button,
+textarea {
+  width: 100%;
+}
+label {
+  color: white;
+}

@@ -69,7 +69,8 @@ if (!isset($_SESSION['user'])) {
                             <td><?php echo $row['email']; ?></td>
                             <td>
                                 <a href="detail.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Detail</a>
-                                <a href="hapus.php?id=<?php echo $row['id']; ?>" class="btn btn-danger">Hapus</a>
+                                <a onclick="return alert('anda yakin?')" href="hapus.php?id=<?php echo $row['id']; ?>"
+                                    class="btn btn-danger">Hapus</a>
                             </td>
                         </tr>
                         <?php endforeach; ?>
